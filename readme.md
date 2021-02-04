@@ -30,8 +30,6 @@ python ./main.py --start_week 9 --end_week 15
 
 You can set up your own model hyperparameter values (e.g. learning rate, loss weights) in the file ```./experiment_setup/feature_module/model_specifications/global_recurrent_feature_model.json```.
 
-```
-
 ## Evaluation
 
 To evaluate the results, go to ```evaluate.py``` and change line 71 for the name of results file (saved in folder ```rmse_results```). Then, run.
