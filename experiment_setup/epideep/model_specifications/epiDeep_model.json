@@ -1,0 +1,1 @@
+{"model_hyperparameters": {"input_size_real": 3, "input_size_categorical": 11, "output_size_real": 1, "output_size_categorical": 11, "hidden_size_real": 64, "hidden_size_categorical": 16, "dropout_prob": 0.0}, "model_type": "EpiDeep","NUM_EPOCHS":500,"LEARNING_RATE":0.01,"REGION_EQUITY_HYPERPARAMETER":0.01}

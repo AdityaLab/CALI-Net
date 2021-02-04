@@ -1,0 +1,1 @@
+{"date_column": "week_end_date", "target_column": "wILI", "feature_columns": ["historical_endogeneous"], "normalization": {"historical_endogeneous":"endog-scaler","wILI": "endog-scaler"}, "region_names_column": "region","categorical_region_embeddings_column":"region_onehot", "drop_columns": ["epiweek"]}

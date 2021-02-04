@@ -1,0 +1,1 @@
+{"date_column": "week_end_date","date_format":"%d/%m/%Y", "target_column": "wILI", "feature_columns": ["wILI_historical"], "normalization": {"wILI_historical":"standard-scaler","wILI": "standard-scaler"}, "region_names_column": "region","categorical_region_embeddings_column":"region_onehot", "drop_columns": ["next1", "next2", "epiweek", "hosp_rate"]}

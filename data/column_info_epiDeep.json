@@ -1,0 +1,1 @@
+{"date_column": "week_end_date","date_format":"%Y-%m-%d", "target_column": "wILI", "feature_columns": ["historical_endogeneous"], "normalization": {"historical_endogeneous":"standard-scaler","wILI": "standard-scaler"}, "region_names_column": "region","categorical_region_embeddings_column":"region_onehot", "drop_columns": []}

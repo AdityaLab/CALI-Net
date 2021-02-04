@@ -1,0 +1,21 @@
+{
+    "model_hyperparameters": {
+        "input_size_real": 70,
+        "num_input_features": 14,
+        "input_size_categorical": 11,
+        "output_size_real": 1,
+        "output_size_categorical": 11,
+        "hidden_size_real": 32,
+        "hidden_size_categorical": 32,
+        "dropout_prob": 0.0
+    },
+    "model_type": "GlobalRecurrentFeatureModule",
+    "NUM_EPOCHS": 100,
+    "LEARNING_RATE": 0.01,
+    "KD_HYPERPARAMETER": 0.1,
+    "LAPLACIAN_HYPERPARAMETER": 0.001,
+    "REGION_RECONSTRUCTION_WEIGHT": 0.01,
+    "REGION_EQUITY_HYPERPARAMETER": 0.001,
+    "AE_RECONSTRUCTION_WEIGHT": 0.005,
+    "L2_REGULARIZATION_HYPERPARAMETER": 0.001
+}
